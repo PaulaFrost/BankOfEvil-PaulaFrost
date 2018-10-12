@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankOfEvil.Terminal", "BankOfEvil.Terminal\BankOfEvil.Terminal.csproj", "{E66E02F4-5706-41B3-B2F0-1AFD04B400F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankOfEvil.Domain", "BankOfEvil.Domain\BankOfEvil.Domain.csproj", "{D567A8B9-DCA3-4D0A-A1E6-90DFEAA4A429}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankOfEvil.Test", "BankOfEvil.Test\BankOfEvil.Test.csproj", "{67079299-368D-4C4E-8CA1-8888C2B14ACD}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E66E02F4-5706-41B3-B2F0-1AFD04B400F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E66E02F4-5706-41B3-B2F0-1AFD04B400F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E66E02F4-5706-41B3-B2F0-1AFD04B400F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E66E02F4-5706-41B3-B2F0-1AFD04B400F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D567A8B9-DCA3-4D0A-A1E6-90DFEAA4A429}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D567A8B9-DCA3-4D0A-A1E6-90DFEAA4A429}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D567A8B9-DCA3-4D0A-A1E6-90DFEAA4A429}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D567A8B9-DCA3-4D0A-A1E6-90DFEAA4A429}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67079299-368D-4C4E-8CA1-8888C2B14ACD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67079299-368D-4C4E-8CA1-8888C2B14ACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67079299-368D-4C4E-8CA1-8888C2B14ACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67079299-368D-4C4E-8CA1-8888C2B14ACD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
