@@ -12,8 +12,6 @@ namespace BankOfEvil.Terminal
 
             var johnDoe = customerService.CreateCustomer("John", "Doe", "8001015689");
             var janeDoe = customerService.CreateCustomer("Jane", "Doe", "8101015685");
-
-
         }   
     }
 }

@@ -18,7 +18,6 @@ namespace BankOfEvil.Domain.Services
             customer.AddAccount(account);
                 
             return customer;
-            
         }
     }
 }
